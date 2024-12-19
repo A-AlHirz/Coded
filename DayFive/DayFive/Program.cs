@@ -84,5 +84,14 @@ Console.WriteLine("Length: " + numbers.Length );
 
 Console.WriteLine("---------------");
 
+#region Exercise6:
+string[] Names = { "Abdullah", "halludba" };
+for (int i = 0; i < Names.Length; i++)
+{
+    Console.WriteLine(Names[i].ToUpper());
+}
+
+#endregion
+
 
 
